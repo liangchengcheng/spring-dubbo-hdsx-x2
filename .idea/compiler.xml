@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for spring-dubbo-hdsx-x2" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.3.0.Final/mapstruct-processor-1.3.0.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/jolira/hickory/1.0.0/hickory-1.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.3.0.Final/mapstruct-1.3.0.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/puppycrawl/tools/checkstyle/8.14/checkstyle-8.14.jar" />
+          <entry name="$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-container-default/1.6/plexus-container-default-1.6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-test/4.0.3.RELEASE/spring-test-4.0.3.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.3.RELEASE/spring-beans-4.0.3.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/joda-time/joda-time/2.9/joda-time-2.9.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.14/lombok-1.16.14.jar" />
+        </processorPath>
+        <module name="order-service-api" />
+        <module name="user-service-impl" />
+        <module name="product-service-impl" />
+        <module name="dubbo-service-nacos" />
+        <module name="sentinel-service-api" />
+        <module name="product-service-restful" />
+        <module name="product-service-api" />
+        <module name="dubbo-service-sentinel" />
+        <module name="order-service-restful" />
+        <module name="common-springboot" />
+        <module name="nacos-service-api" />
+        <module name="sentinel-service-provider" />
+        <module name="nacos-service-provider" />
+        <module name="user-service-api" />
+        <module name="user-service-restful" />
+        <module name="common-framework" />
+        <module name="order-service-impl" />
+        <module name="sentinel-service-consumer" />
+        <module name="nacos-service-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-framework" target="1.8" />
+      <module name="common-springboot" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="demo-application" target="1.8" />
+      <module name="demo-business" target="1.8" />
+      <module name="demo-business-api" target="1.8" />
+      <module name="demo-job" target="1.8" />
+      <module name="demo-rpc-service" target="1.8" />
+      <module name="demo-rpc-service-api" target="1.8" />
+      <module name="dubbo-admin-distribution" target="1.8" />
+      <module name="dubbo-admin-server" target="1.8" />
+      <module name="dubbo-admin-ui" target="1.8" />
+      <module name="dubbo-service-admin" target="1.8" />
+      <module name="dubbo-service-common" target="1.8" />
+      <module name="dubbo-service-nacos" target="1.8" />
+      <module name="dubbo-service-order" target="1.8" />
+      <module name="dubbo-service-product" target="1.8" />
+      <module name="dubbo-service-sentinel" target="1.8" />
+      <module name="dubbo-service-user" target="1.8" />
+      <module name="nacos-service-api" target="1.8" />
+      <module name="nacos-service-consumer" target="1.8" />
+      <module name="nacos-service-provider" target="1.8" />
+      <module name="ops" target="1.8" />
+      <module name="order-service-api" target="1.8" />
+      <module name="order-service-impl" target="1.8" />
+      <module name="order-service-restful" target="1.8" />
+      <module name="pay" target="1.8" />
+      <module name="pay-application" target="1.8" />
+      <module name="pay-service-api" target="1.8" />
+      <module name="pay-service-impl" target="1.8" />
+      <module name="product-service-api" target="1.8" />
+      <module name="product-service-impl" target="1.8" />
+      <module name="product-service-restful" target="1.8" />
+      <module name="promotion" target="1.8" />
+      <module name="promotion-application" target="1.8" />
+      <module name="promotion-service-api" target="1.8" />
+      <module name="promotion-service-impl" target="1.8" />
+      <module name="search" target="1.8" />
+      <module name="search-application" target="1.8" />
+      <module name="search-service-api" target="1.8" />
+      <module name="search-service-impl" target="1.8" />
+      <module name="sentinel-service-api" target="1.8" />
+      <module name="sentinel-service-consumer" target="1.8" />
+      <module name="sentinel-service-provider" target="1.8" />
+      <module name="spring-dubbo-hdsx-x2" target="1.8" />
+      <module name="system" target="1.8" />
+      <module name="system-application" target="1.8" />
+      <module name="system-sdk" target="1.8" />
+      <module name="system-service-api" target="1.8" />
+      <module name="system-service-impl" target="1.8" />
+      <module name="user-sdk" target="1.8" />
+      <module name="user-service-api" target="1.8" />
+      <module name="user-service-impl" target="1.8" />
+      <module name="user-service-restful" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-framework" options="-parameters" />
+      <module name="common-springboot" options="-parameters" />
+      <module name="demo-application" options="-parameters" />
+      <module name="demo-business" options="-parameters" />
+      <module name="demo-business-api" options="-parameters" />
+      <module name="demo-job" options="-parameters" />
+      <module name="demo-rpc-service" options="-parameters" />
+      <module name="demo-rpc-service-api" options="-parameters" />
+      <module name="dubbo-service-nacos" options="-parameters" />
+      <module name="dubbo-service-sentinel" options="-parameters" />
+      <module name="nacos-service-api" options="-parameters" />
+      <module name="nacos-service-consumer" options="-parameters" />
+      <module name="nacos-service-provider" options="-parameters" />
+      <module name="ops" options="-parameters" />
+      <module name="order-service-api" options="-parameters" />
+      <module name="order-service-impl" options="-parameters" />
+      <module name="order-service-restful" options="-parameters" />
+      <module name="pay-application" options="-parameters" />
+      <module name="pay-service-api" options="-parameters" />
+      <module name="pay-service-impl" options="-parameters" />
+      <module name="product-service-api" options="-parameters" />
+      <module name="product-service-impl" options="-parameters" />
+      <module name="product-service-restful" options="-parameters" />
+      <module name="promotion-application" options="-parameters" />
+      <module name="promotion-service-api" options="-parameters" />
+      <module name="promotion-service-impl" options="-parameters" />
+      <module name="search-application" options="-parameters" />
+      <module name="search-service-api" options="-parameters" />
+      <module name="search-service-impl" options="-parameters" />
+      <module name="sentinel-service-api" options="-parameters" />
+      <module name="sentinel-service-consumer" options="-parameters" />
+      <module name="sentinel-service-provider" options="-parameters" />
+      <module name="system-application" options="-parameters" />
+      <module name="system-sdk" options="-parameters" />
+      <module name="system-service-api" options="-parameters" />
+      <module name="system-service-impl" options="-parameters" />
+      <module name="user-sdk" options="-parameters" />
+      <module name="user-service-api" options="-parameters" />
+      <module name="user-service-impl" options="-parameters" />
+      <module name="user-service-restful" options="-parameters" />
+    </option>
+  </component>
+</project>

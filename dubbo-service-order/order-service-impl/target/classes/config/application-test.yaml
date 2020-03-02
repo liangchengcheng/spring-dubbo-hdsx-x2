@@ -1,0 +1,50 @@
+
+spring:
+  application:
+    name: order-service
+  # datasource
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/hdsx?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123
+
+# mybatis
+mybatis-plus:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
+
+# dubbo
+dubbo:
+  application:
+    id: order-service
+    name: order-service  #应用名称
+    owner: lcc      #应用所属者
+    organization: hdsx   #应用所属组织
+  registry:
+    id: zookeeper-registry #注册中心id
+    protocol: zookeeper    #注册中心协议
+    address: zookeeper://127.0.0.1:2181 #注册中心地址
+  metadata-report:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo   #协议名称
+    port: -1   #协议端口
+    accesslog: dubbo-access.log #协议访问log
+  provider:
+    retries: 0    #重试次数
+    timeout: 3000 #超时时间
+    OrderService:
+      version: 1.0.0
+
+# rocketmq
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: product-producer-group
+
+# seata
+seata:
+  tx-service-group: my_test_tx_group
+server:
+  port: 20010

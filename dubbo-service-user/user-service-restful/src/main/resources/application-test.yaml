@@ -1,0 +1,45 @@
+# sentinel
+spring:
+  application:
+    name: user-restful
+  cloud:
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+      metric:
+        charset: UTF-8
+      eager: false
+# server
+server:
+  port: 20001
+# swagger
+swagger:
+  enable: true # 暂时不去掉
+  title: 用户子系统
+  description: 用户子系统
+  version: 1.0.0
+  base-package: com.hdsx.dubbo.user.controller
+# health
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,env,metrics,prometheus
+    metrics:
+      enabled: true
+
+# dubbo
+dubbo:
+  application:
+    name: user-restful  # 应用名称
+    owner: lcc      # 应用所属者
+    organization: hdsx   # 应用所属组织
+  registry:
+    id: zookeeper-registry #注册中心id
+    protocol: zookeeper    #注册中心协议
+    address: zookeeper://127.0.0.1:2181 #注册中心地址
+  monitor:
+    protocol: registry # 注册监控中心
+
+

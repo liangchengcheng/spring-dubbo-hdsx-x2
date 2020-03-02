@@ -1,0 +1,4 @@
+spring:
+  profiles:
+    active: test
+## 默认是test  生产创建prod

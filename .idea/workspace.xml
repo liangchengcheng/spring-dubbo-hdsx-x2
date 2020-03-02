@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2e71177-a4ec-415e-9777-7f5534d123cb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XNfwm29kcx5Eo01XbtgLRnLMGj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.22566372" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdsx.dubbo.order.application.config" />
+      <recent name="com.hdsx.dubbo.order" />
+      <recent name="com.hdsx.dubbo.product.application.config" />
+      <recent name="com.hdsx.dubbo.product" />
+      <recent name="com.hdsx.dubbo.user.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sql" />
+      <recent name="$PROJECT_DIR$/dubbo-service-order" />
+      <recent name="$PROJECT_DIR$/dubbo-service-order/order-service-impl/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dubbo-service-product/product-service-impl/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.iocoder.mall.demo.application.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-admin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.apache.dubbo.admin.DubboAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ops" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.iocoder.mall.ops.OpsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-service-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.dubbo.order.application.OrderRestfulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order-service-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdsx.dubbo.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.dubbo.order.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pay-application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.iocoder.mall.pay.application.PayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-service-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.dubbo.product.application.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="product-service-restful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdsx.dubbo.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.dubbo.product.ProductRestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="product-service-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdsx.dubbo.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.dubbo.product.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PromotionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="promotion-application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.iocoder.mall.promotion.application.PromotionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="search-application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.iocoder.mall.search.application.SearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="system-application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.iocoder.mall.admin.application.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.dubbo.user.application.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user-service-restful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdsx.dubbo.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.dubbo.user.UserRestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user-service-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdsx.dubbo.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.dubbo.user.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.OpsApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.PayApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.PromotionApplication" />
+      <item itemvalue="Spring Boot.SearchApplication" />
+      <item itemvalue="Spring Boot.SystemApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.DubboAdminApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.UserRestApplication" />
+      <item itemvalue="Spring Boot.ProductServiceApplication" />
+      <item itemvalue="Spring Boot.ProductRestApplication" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderServiceApplication" />
+        <item itemvalue="Spring Boot.ProductServiceApplication" />
+        <item itemvalue="Spring Boot.ProductRestApplication" />
+        <item itemvalue="Spring Boot.UserRestApplication" />
+        <item itemvalue="Spring Boot.UserServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2e71177-a4ec-415e-9777-7f5534d123cb" name="Default Changelist" comment="" />
+      <created>1580891713169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580891713169</updated>
+      <workItem from="1580891719159" duration="1439000" />
+      <workItem from="1580978268465" duration="420000" />
+      <workItem from="1581229043964" duration="46000" />
+      <workItem from="1581301864502" duration="2613000" />
+      <workItem from="1581510086145" duration="761000" />
+      <workItem from="1581696977212" duration="3385000" />
+      <workItem from="1581749497197" duration="14403000" />
+      <workItem from="1581771759249" duration="4545000" />
+      <workItem from="1581776747805" duration="12967000" />
+      <workItem from="1581862960078" duration="47000" />
+      <workItem from="1581941011335" duration="4043000" />
+      <workItem from="1581990548153" duration="557000" />
+      <workItem from="1582029215975" duration="1182000" />
+      <workItem from="1582120687561" duration="8134000" />
+      <workItem from="1582198894666" duration="11228000" />
+      <workItem from="1582355332528" duration="20387000" />
+      <workItem from="1582437034447" duration="305000" />
+      <workItem from="1582437348129" duration="1334000" />
+      <workItem from="1582438693258" duration="16072000" />
+      <workItem from="1582546361978" duration="6242000" />
+      <workItem from="1582612060154" duration="634000" />
+      <workItem from="1582631279410" duration="6991000" />
+      <workItem from="1582719352254" duration="8537000" />
+      <workItem from="1582806198903" duration="8460000" />
+      <workItem from="1582948204417" duration="739000" />
+      <workItem from="1582979789853" duration="2740000" />
+      <workItem from="1583128967117" duration="618000" />
+    </task>
+    <task id="LOCAL-00001" summary="开始调试-user服务">
+      <created>1582381899177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582381899180</updated>
+    </task>
+    <task id="LOCAL-00002" summary="开始调试-user服务2">
+      <created>1582382563203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582382563203</updated>
+    </task>
+    <task id="LOCAL-00003" summary="开始调试-user服务3">
+      <created>1582447231057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582447231057</updated>
+    </task>
+    <task id="LOCAL-00004" summary="开始调试-user服务4">
+      <created>1582460135901</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582460135901</updated>
+    </task>
+    <task id="LOCAL-00005" summary="开始调试-user服务5">
+      <created>1582505152611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582505152612</updated>
+    </task>
+    <task id="LOCAL-00006" summary="开始调试-admin包">
+      <created>1582546948470</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582546948470</updated>
+    </task>
+    <task id="LOCAL-00007" summary="开始调试-product包的测试">
+      <created>1582548473565</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582548473565</updated>
+    </task>
+    <task id="LOCAL-00008" summary="开始调试-product包的测试1">
+      <created>1582631873691</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582631873692</updated>
+    </task>
+    <task id="LOCAL-00009" summary="开始调试-order">
+      <created>1582804543814</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582804543814</updated>
+    </task>
+    <task id="LOCAL-00010" summary="开始调试-order1">
+      <created>1582806054467</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582806054470</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="开始调试-user服务" />
+    <MESSAGE value="开始调试-user服务2" />
+    <MESSAGE value="开始调试-user服务3" />
+    <MESSAGE value="开始调试-user服务4" />
+    <MESSAGE value="开始调试-user服务5" />
+    <MESSAGE value="开始调试-admin包" />
+    <MESSAGE value="开始调试-product包的测试" />
+    <MESSAGE value="开始调试-product包的测试1" />
+    <MESSAGE value="开始调试-order" />
+    <MESSAGE value="开始调试-order1" />
+    <option name="LAST_COMMIT_MESSAGE" value="开始调试-order1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="81" y="95" key="#Project_Structure" timestamp="1582632814232">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="81" y="95" key="#Project_Structure/0.23.1280.741@0.23.1280.741" timestamp="1582632814232" />
+    <state x="114" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582719401852">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="114" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.741@0.23.1280.741" timestamp="1582719401852" />
+    <state x="383" y="194" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582377411603">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="383" y="194" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.741@0.23.1280.741" timestamp="1582377411603" />
+    <state x="324" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1581851707062">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="324" y="129" key="#com.intellij.ide.util.MemberChooser/0.23.1280.741@0.23.1280.741" timestamp="1581851707062" />
+    <state x="0" y="345" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581849364249">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="0" y="345" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.741@0.23.1280.741" timestamp="1581849364249" />
+    <state x="25" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581779738741">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="25" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.741@0.23.1280.741" timestamp="1581779738741" />
+    <state x="368" y="166" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581848852977">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="368" y="166" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.741@0.23.1280.741" timestamp="1581848852977" />
+    <state x="329" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582460824411">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="329" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.741@0.23.1280.741" timestamp="1582460824411" />
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1582806054052">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.741@0.23.1280.741" timestamp="1582631873071" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.742@0.23.1280.742" timestamp="1582804542640" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.743@0.23.1280.743" timestamp="1582806054052" />
+    <state width="417" height="466" key="DebuggerActiveHint" timestamp="1582722693355">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="417" height="466" key="DebuggerActiveHint/0.23.1280.741@0.23.1280.741" timestamp="1582722693355" />
+    <state width="1218" height="356" key="GridCell.Tab.0.bottom" timestamp="1582806158280">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state width="1218" height="356" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1582764202163" />
+    <state width="1218" height="267" key="GridCell.Tab.0.bottom/0.23.1280.742@0.23.1280.742" timestamp="1582609482501" />
+    <state width="1218" height="356" key="GridCell.Tab.0.bottom/0.23.1280.743@0.23.1280.743" timestamp="1582806158280" />
+    <state width="1218" height="356" key="GridCell.Tab.0.center" timestamp="1582806158279">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state width="1218" height="356" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1582764202162" />
+    <state width="1218" height="267" key="GridCell.Tab.0.center/0.23.1280.742@0.23.1280.742" timestamp="1582609482500" />
+    <state width="1218" height="356" key="GridCell.Tab.0.center/0.23.1280.743@0.23.1280.743" timestamp="1582806158279" />
+    <state width="1218" height="356" key="GridCell.Tab.0.left" timestamp="1582806158278">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state width="1218" height="356" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1582764202161" />
+    <state width="1218" height="267" key="GridCell.Tab.0.left/0.23.1280.742@0.23.1280.742" timestamp="1582609482500" />
+    <state width="1218" height="356" key="GridCell.Tab.0.left/0.23.1280.743@0.23.1280.743" timestamp="1582806158278" />
+    <state width="1218" height="356" key="GridCell.Tab.0.right" timestamp="1582806158279">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state width="1218" height="356" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1582764202162" />
+    <state width="1218" height="267" key="GridCell.Tab.0.right/0.23.1280.742@0.23.1280.742" timestamp="1582609482501" />
+    <state width="1218" height="356" key="GridCell.Tab.0.right/0.23.1280.743@0.23.1280.743" timestamp="1582806158279" />
+    <state width="1218" height="356" key="GridCell.Tab.1.bottom" timestamp="1582806158281">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state width="1218" height="356" key="GridCell.Tab.1.bottom/0.23.1280.741@0.23.1280.741" timestamp="1582764202166" />
+    <state width="1218" height="267" key="GridCell.Tab.1.bottom/0.23.1280.742@0.23.1280.742" timestamp="1582609482506" />
+    <state width="1218" height="356" key="GridCell.Tab.1.bottom/0.23.1280.743@0.23.1280.743" timestamp="1582806158281" />
+    <state width="1218" height="356" key="GridCell.Tab.1.center" timestamp="1582806158280">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state width="1218" height="356" key="GridCell.Tab.1.center/0.23.1280.741@0.23.1280.741" timestamp="1582764202164" />
+    <state width="1218" height="267" key="GridCell.Tab.1.center/0.23.1280.742@0.23.1280.742" timestamp="1582609482504" />
+    <state width="1218" height="356" key="GridCell.Tab.1.center/0.23.1280.743@0.23.1280.743" timestamp="1582806158280" />
+    <state width="1218" height="356" key="GridCell.Tab.1.left" timestamp="1582806158280">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state width="1218" height="356" key="GridCell.Tab.1.left/0.23.1280.741@0.23.1280.741" timestamp="1582764202164" />
+    <state width="1218" height="267" key="GridCell.Tab.1.left/0.23.1280.742@0.23.1280.742" timestamp="1582609482502" />
+    <state width="1218" height="356" key="GridCell.Tab.1.left/0.23.1280.743@0.23.1280.743" timestamp="1582806158280" />
+    <state width="1218" height="356" key="GridCell.Tab.1.right" timestamp="1582806158280">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state width="1218" height="356" key="GridCell.Tab.1.right/0.23.1280.741@0.23.1280.741" timestamp="1582764202165" />
+    <state width="1218" height="267" key="GridCell.Tab.1.right/0.23.1280.742@0.23.1280.742" timestamp="1582609482505" />
+    <state width="1218" height="356" key="GridCell.Tab.1.right/0.23.1280.743@0.23.1280.743" timestamp="1582806158280" />
+    <state width="1218" height="303" key="GridCell.Tab.2.bottom" timestamp="1582806158251">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state width="1218" height="303" key="GridCell.Tab.2.bottom/0.23.1280.741@0.23.1280.741" timestamp="1582724787347" />
+    <state width="1218" height="303" key="GridCell.Tab.2.bottom/0.23.1280.743@0.23.1280.743" timestamp="1582806158251" />
+    <state width="1218" height="303" key="GridCell.Tab.2.center" timestamp="1582806158250">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state width="1218" height="303" key="GridCell.Tab.2.center/0.23.1280.741@0.23.1280.741" timestamp="1582724787344" />
+    <state width="1218" height="303" key="GridCell.Tab.2.center/0.23.1280.743@0.23.1280.743" timestamp="1582806158250" />
+    <state width="1218" height="303" key="GridCell.Tab.2.left" timestamp="1582806158248">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state width="1218" height="303" key="GridCell.Tab.2.left/0.23.1280.741@0.23.1280.741" timestamp="1582724787343" />
+    <state width="1218" height="303" key="GridCell.Tab.2.left/0.23.1280.743@0.23.1280.743" timestamp="1582806158248" />
+    <state width="1218" height="303" key="GridCell.Tab.2.right" timestamp="1582806158250">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state width="1218" height="303" key="GridCell.Tab.2.right/0.23.1280.741@0.23.1280.741" timestamp="1582724787346" />
+    <state width="1218" height="303" key="GridCell.Tab.2.right/0.23.1280.743@0.23.1280.743" timestamp="1582806158250" />
+    <state x="200" y="88" key="NewModule_or_Project.wizard" timestamp="1581858161330">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="200" y="88" key="NewModule_or_Project.wizard/0.23.1280.741@0.23.1280.741" timestamp="1581858161330" />
+    <state x="480" y="244" key="Vcs.Push.Dialog.v2" timestamp="1582806056696">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state x="480" y="244" key="Vcs.Push.Dialog.v2/0.23.1280.741@0.23.1280.741" timestamp="1582631876675" />
+    <state x="480" y="244" key="Vcs.Push.Dialog.v2/0.23.1280.742@0.23.1280.742" timestamp="1582804546200" />
+    <state x="480" y="244" key="Vcs.Push.Dialog.v2/0.23.1280.743@0.23.1280.743" timestamp="1582806056696" />
+    <state x="395" y="176" width="885" height="552" key="find.popup" timestamp="1583129724339">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state x="395" y="176" width="885" height="550" key="find.popup/0.23.1280.741@0.23.1280.741" timestamp="1582724014203" />
+    <state x="395" y="176" width="885" height="552" key="find.popup/0.23.1280.743@0.23.1280.743" timestamp="1583129724339" />
+    <state x="34" y="159" key="new project wizard" timestamp="1581942467582">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="34" y="159" key="new project wizard/0.23.1280.741@0.23.1280.741" timestamp="1581942467582" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubbo-service-user/user-service-restful/src/main/java/com/hdsx/dubbo/user/controller/UserController.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubbo-service-order/order-service-impl/src/main/java/com/hdsx/dubbo/order/service/OrderServiceImpl.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubbo-service-order/order-service-impl/src/main/java/com/hdsx/dubbo/order/service/OrderServiceImpl.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

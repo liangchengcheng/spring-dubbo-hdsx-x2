@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dubbo-service-admin/dubbo-admin-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-admin/dubbo-admin-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-common/common-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-common/common-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-nacos/nacos-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-nacos/nacos-service-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-nacos/nacos-service-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-order/order-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-order/order-service-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-order/order-service-restful/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-product/product-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-product/product-service-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-product/product-service-restful/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-user/user-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-user/user-service-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-user/user-service-restful/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+2020-02-21 18:23:59,237 WARN [dump-ignore] ignore to save cache file. groupKey=dubbo-registry-nacos-provider-sample+mapping-com.hdsx.dubbo.sentinel.api.DemoService, md5=1a191b438dce521365956efc4c98b996, lastModifiedOld=1582241857780, lastModifiedNew=1582242316470
+
+2020-02-21 20:23:45,988 WARN [dump-ignore] ignore to save cache file. groupKey=dubbo-registry-nacos-provider-sample+mapping-com.hdsx.dubbo.sentinel.api.DemoService, md5=1a191b438dce521365956efc4c98b996, lastModifiedOld=1582241857780, lastModifiedNew=1582242031370
+
+2020-02-21 20:23:46,096 WARN [dump-ignore] ignore to save cache file. groupKey=dubbo-registry-nacos-provider-sample+mapping-com.hdsx.dubbo.sentinel.api.DemoService, md5=1a191b438dce521365956efc4c98b996, lastModifiedOld=1582241857780, lastModifiedNew=1582242577046
+

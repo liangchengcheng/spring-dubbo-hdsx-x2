@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-common/common-framework/common-framework.iml" filepath="$PROJECT_DIR$/dubbo-service-common/common-framework/common-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-common/common-springboot/common-springboot.iml" filepath="$PROJECT_DIR$/dubbo-service-common/common-springboot/common-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-common/dubbo-service-common.iml" filepath="$PROJECT_DIR$/dubbo-service-common/dubbo-service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-nacos/dubbo-service-nacos.iml" filepath="$PROJECT_DIR$/dubbo-service-nacos/dubbo-service-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-order/dubbo-service-order.iml" filepath="$PROJECT_DIR$/dubbo-service-order/dubbo-service-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-product/dubbo-service-product.iml" filepath="$PROJECT_DIR$/dubbo-service-product/dubbo-service-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-sentinel/dubbo-service-sentinel.iml" filepath="$PROJECT_DIR$/dubbo-service-sentinel/dubbo-service-sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-user/dubbo-service-user.iml" filepath="$PROJECT_DIR$/dubbo-service-user/dubbo-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-nacos/nacos-service-api/nacos-service-api.iml" filepath="$PROJECT_DIR$/dubbo-service-nacos/nacos-service-api/nacos-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-nacos/nacos-service-consumer/nacos-service-consumer.iml" filepath="$PROJECT_DIR$/dubbo-service-nacos/nacos-service-consumer/nacos-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-nacos/nacos-service-provider/nacos-service-provider.iml" filepath="$PROJECT_DIR$/dubbo-service-nacos/nacos-service-provider/nacos-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-order/order-service-api/order-service-api.iml" filepath="$PROJECT_DIR$/dubbo-service-order/order-service-api/order-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-order/order-service-impl/order-service-impl.iml" filepath="$PROJECT_DIR$/dubbo-service-order/order-service-impl/order-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-order/order-service-restful/order-service-restful.iml" filepath="$PROJECT_DIR$/dubbo-service-order/order-service-restful/order-service-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-product/product-service-api/product-service-api.iml" filepath="$PROJECT_DIR$/dubbo-service-product/product-service-api/product-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-product/product-service-impl/product-service-impl.iml" filepath="$PROJECT_DIR$/dubbo-service-product/product-service-impl/product-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-product/product-service-restful/product-service-restful.iml" filepath="$PROJECT_DIR$/dubbo-service-product/product-service-restful/product-service-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-api/sentinel-service-api.iml" filepath="$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-api/sentinel-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-consumer/sentinel-service-consumer.iml" filepath="$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-consumer/sentinel-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-provider/sentinel-service-provider.iml" filepath="$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-provider/sentinel-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-dubbo-hdsx-x2.iml" filepath="$PROJECT_DIR$/spring-dubbo-hdsx-x2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-user/user-service-api/user-service-api.iml" filepath="$PROJECT_DIR$/dubbo-service-user/user-service-api/user-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-user/user-service-impl/user-service-impl.iml" filepath="$PROJECT_DIR$/dubbo-service-user/user-service-impl/user-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service-user/user-service-restful/user-service-restful.iml" filepath="$PROJECT_DIR$/dubbo-service-user/user-service-restful/user-service-restful.iml" />
+    </modules>
+  </component>
+</project>

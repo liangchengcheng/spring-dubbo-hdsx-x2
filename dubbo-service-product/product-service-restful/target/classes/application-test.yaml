@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: product-restful
+  cloud:
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:12088
+      metric:
+        charset: UTF-8
+      eager: false
+# server
+server:
+  port: 20002
+# health
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,env,metrics,prometheus
+    metrics:
+      enabled: true
+# swagger
+swagger:
+  enable: true
+  title: 商品子系统
+  description: 商品子系统
+  version: 1.0.0
+  base-package: com.hdsx.dubbo.product.controller
+
+# dubbo
+dubbo:
+  application:
+    name: product-restful  # 应用名称
+    owner: lcc      # 应用所属者
+    organization: hdsx   # 应用所属组织
+  registry:
+    id: zookeeper-registry #注册中心id
+    protocol: zookeeper    #注册中心协议
+    address: zookeeper://127.0.0.1:2181 #注册中心地址
+#  monitor:
+#    protocol: registry # 注册监控中心

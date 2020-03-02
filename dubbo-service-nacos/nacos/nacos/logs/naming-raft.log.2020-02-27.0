@@ -1,0 +1,28 @@
+2020-02-27 00:00:21,712 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 00:00:23,698 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 02:00:35,238 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 02:00:37,233 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 04:00:49,172 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 04:00:51,171 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 06:01:02,665 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 06:01:04,648 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 06:45:03,220 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 06:45:05,690 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 08:43:10,193 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 08:43:12,038 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 19:52:27,424 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-02-27 19:52:29,465 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.31.22","key":"192.168.31.22:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+

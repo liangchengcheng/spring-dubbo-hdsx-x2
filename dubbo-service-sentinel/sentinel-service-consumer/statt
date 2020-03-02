@@ -1,0 +1,1 @@
+-Djava.net.preferIPv4Stack=true  -Dcsp.sentinel.api.port=8189   -Dproject.name=consumer-service -Dcsp.sentinel.dashboard.server=127.0.0.1:8080

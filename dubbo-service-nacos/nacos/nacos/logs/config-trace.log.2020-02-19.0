@@ -1,0 +1,8 @@
+2020-02-19 22:53:10,798|192.168.31.22|dubbo.properties|dubbo|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-02-19 22:53:10,837|192.168.31.22|dubbo.properties|dubbo-registry-nacos-provider-sample|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-02-19 22:53:11,815|192.168.31.22|dubbo-registry-nacos-provider-sample.configurators|dubbo|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-02-19 22:53:12,073|192.168.31.22|org.apache.dubbo.spring.boot.demo.consumer.DemoService:1.0.0:.configurators|dubbo|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-02-19 22:53:13,305|192.168.31.22|dubbo-registry-nacos-provider-sample|mapping-org.apache.dubbo.spring.boot.demo.consumer.DemoService|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-02-19 22:53:13,396|192.168.31.22|dubbo-registry-nacos-provider-sample|mapping-org.apache.dubbo.spring.boot.demo.consumer.DemoService|null|unknown|1582123993322|192.168.31.22|persist|pub|-1|e52e76ca2fc26c9f2ac8605f8e565dc3
+2020-02-19 22:53:13,419|192.168.31.22|dubbo-registry-nacos-provider-sample|mapping-org.apache.dubbo.spring.boot.demo.consumer.DemoService|null|null|1582123993322|192.168.31.22|notify|ok|91|192.168.31.22:8848
+2020-02-19 22:53:13,450|192.168.31.22|dubbo-registry-nacos-provider-sample|mapping-org.apache.dubbo.spring.boot.demo.consumer.DemoService|null|null|1582123993322|192.168.31.22|dump|ok|128|13

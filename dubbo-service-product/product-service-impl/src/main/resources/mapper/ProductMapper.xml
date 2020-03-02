@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hdsx.dubbo.product.dao.ProductMapper">
+
+    <resultMap id="productBeanMap" type="com.hdsx.dubbo.product.api.bean.ProductBean">
+        <id column="id" property="id"/>
+    </resultMap>
+
+    <resultMap id="productNumBeanMap" type="com.hdsx.dubbo.product.api.bean.ProductNumBean">
+        <id column="id" property="id"/>
+    </resultMap>
+
+    <!-- 我是为了演示， 所以用了快捷的写法，实际不可如此-->
+    <insert id="addProduct" parameterType="com.hdsx.dubbo.product.api.bean.ProductBean">
+        INSERT INTO tb_product (
+          id, title, price, num, status, created, updated
+        ) VALUES (
+          #{id}, #{title}, #{price}, #{num}, #{status}, NOW(), NOW()
+        )
+    </insert>
+
+    <update id="editProduct" parameterType="com.hdsx.dubbo.product.api.bean.ProductBean">
+        UPDATE tb_product SET
+         title = #{title},
+         price = #{price},
+         num = #{num},
+         status = #{status},
+         updated = NOW()
+        WHERE id = #{id}
+    </update>
+
+    <update id="updateProductNumBean" parameterType="com.hdsx.dubbo.product.api.bean.ProductNumBean">
+        UPDATE tb_product SET
+         num = #{num},
+         updated = NOW()
+        WHERE id = #{id}
+    </update>
+
+    <select id="getProductById" parameterType="String" resultMap="productBeanMap">
+        SELECT * FROM tb_product WHERE id = #{id}
+    </select>
+
+</mapper>
