@@ -12,7 +12,7 @@
     <artifactId>product-service-restful</artifactId>
 
     <dependencies>
-        <!-- Mall 相关 -->
+        <!-- 业务 相关 -->
         <dependency>
             <groupId>com.hdsx.dubbo</groupId>
             <artifactId>common-framework</artifactId>
@@ -28,7 +28,6 @@
             <artifactId>product-service-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-
 
         <!-- Web 相关 -->
         <dependency>
@@ -59,7 +58,6 @@
         </dependency>
 
         <!-- 监控相关 -->
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>

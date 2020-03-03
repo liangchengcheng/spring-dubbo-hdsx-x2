@@ -1,7 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2e71177-a4ec-415e-9777-7f5534d123cb" name="Default Changelist" comment="" />
+    <list default="true" id="d2e71177-a4ec-415e-9777-7f5534d123cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dubbo-service-sentinel/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-common/common-framework/src/main/java/com/hdsx/dubbo/common/framework/constant/DeletedStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-common/common-framework/src/main/java/com/hdsx/dubbo/common/framework/dataobject/BaseDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-common/common-framework/src/main/java/com/hdsx/dubbo/common/framework/dataobject/DeletableDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-common/common-framework/src/main/java/com/hdsx/dubbo/common/framework/util/ServiceExceptionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-common/common-framework/src/main/java/com/hdsx/dubbo/common/framework/util/ServiceExceptionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-common/common-framework/src/main/java/com/hdsx/dubbo/common/framework/util/ValidationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-common/common-framework/src/main/java/com/hdsx/dubbo/common/framework/util/ValidationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-common/common-framework/src/main/java/com/hdsx/dubbo/common/framework/vo/ResultUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-common/common-framework/src/main/java/com/hdsx/dubbo/common/framework/vo/ResultUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos-service-api/src/main/java/com/hdsx/dubbo/nacos/api/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-nacos/nacos-service-api/src/main/java/com/hdsx/dubbo/nacos/api/DemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/bin/logs/access_log.2020-03-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/bin/logs/access_log.2020-03-02.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/config-client-request.log" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/config-client-request.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/config-client-request.log.2020-02-24.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/config-memory.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/config-memory.log.2020-02-24.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/config-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/config-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/config-server.log.2020-02-24.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/nacos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/nacos.log.2020-02-24.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/nacos_gc.log.0.current" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/nacos_gc.log.0.current" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-event.log" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-event.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-event.log.2020-02-24.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-performance.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-performance.log.2020-02-24.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-push.log" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-push.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-push.log.2020-02-24.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-raft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-raft.log.2020-02-24.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-nacos/nacos/nacos/logs/naming-server.log.2020-02-24.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/order-service-restful/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-order/order-service-restful/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/seata/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/bin/seata-server.bat" beforeDir="false" afterPath="$PROJECT_DIR$/seata/bin/seata-server.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/bin/seata-server.sh" beforeDir="false" afterPath="$PROJECT_DIR$/seata/bin/seata-server.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/bin/sessionStore/root.data" beforeDir="false" afterPath="$PROJECT_DIR$/seata/bin/sessionStore/root.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/conf/META-INF/services/io.seata.core.lock.Locker" beforeDir="false" afterPath="$PROJECT_DIR$/seata/conf/META-INF/services/io.seata.core.lock.Locker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/conf/META-INF/services/io.seata.core.store.db.DataSourceGenerator" beforeDir="false" afterPath="$PROJECT_DIR$/seata/conf/META-INF/services/io.seata.core.store.db.DataSourceGenerator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/conf/META-INF/services/io.seata.server.coordinator.AbstractCore" beforeDir="false" afterPath="$PROJECT_DIR$/seata/conf/META-INF/services/io.seata.server.coordinator.AbstractCore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/conf/META-INF/services/io.seata.server.session.SessionManager" beforeDir="false" afterPath="$PROJECT_DIR$/seata/conf/META-INF/services/io.seata.server.session.SessionManager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/conf/META-INF/services/io.seata.server.store.TransactionStoreManager" beforeDir="false" afterPath="$PROJECT_DIR$/seata/conf/META-INF/services/io.seata.server.store.TransactionStoreManager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/conf/README-zh.md" beforeDir="false" afterPath="$PROJECT_DIR$/seata/conf/README-zh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/conf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/seata/conf/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/conf/file.conf" beforeDir="false" afterPath="$PROJECT_DIR$/seata/conf/file.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/conf/file.conf.example" beforeDir="false" afterPath="$PROJECT_DIR$/seata/conf/file.conf.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/conf/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata/conf/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/conf/registry.conf" beforeDir="false" afterPath="$PROJECT_DIR$/seata/conf/registry.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/animal-sniffer-annotations-1.17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/animal-sniffer-annotations-1.17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/antlr-2.7.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/antlr-runtime-3.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/antlr-runtime-3.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/aopalliance-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/apollo-client-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/apollo-client-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/apollo-core-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/apollo-core-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/archaius-core-0.7.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/archaius-core-0.7.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/asm-5.0.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/asm-5.0.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/audience-annotations-0.5.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/audience-annotations-0.5.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/bolt-1.4.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/bolt-1.4.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/checker-qual-2.5.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/checker-qual-2.5.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/commons-codec-1.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/commons-configuration-1.8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/commons-configuration-1.8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/commons-dbcp-1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/commons-dbcp-1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/commons-io-2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/commons-io-2.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/commons-jxpath-1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/commons-jxpath-1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/commons-lang-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/commons-lang3-3.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/commons-lang3-3.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/commons-logging-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/commons-math-2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/commons-math-2.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/commons-pool-1.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/commons-pool-1.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/commons-pool2-2.4.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/compactmap-1.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/compactmap-1.2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/config-1.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/config-1.2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/consul-api-1.4.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/consul-api-1.4.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/dexx-collections-0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/dexx-collections-0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/druid-1.1.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/druid-1.1.12.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/error_prone_annotations-2.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/error_prone_annotations-2.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/eureka-client-1.9.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/eureka-client-1.9.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/failureaccess-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/failureaccess-1.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/fastjson-1.2.60.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/fastjson-1.2.60.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/grpc-context-1.17.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/grpc-context-1.17.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/grpc-core-1.17.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/grpc-core-1.17.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/grpc-grpclb-1.17.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/grpc-grpclb-1.17.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/grpc-netty-1.17.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/grpc-netty-1.17.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/grpc-protobuf-1.17.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/grpc-protobuf-1.17.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/grpc-protobuf-lite-1.17.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/grpc-protobuf-lite-1.17.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/grpc-stub-1.17.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/grpc-stub-1.17.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/gson-2.8.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/gson-2.8.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/guava-27.0.1-jre.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/guava-27.0.1-jre.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/guice-4.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/guice-4.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/h2-1.4.181.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/h2-1.4.181.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/hessian-3.3.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/hessian-3.3.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/hessian-4.0.63.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/hessian-4.0.63.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/httpclient-4.5.8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/httpclient-4.5.8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/httpcore-4.4.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/httpcore-4.4.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/j2objc-annotations-1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/j2objc-annotations-1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jackson-annotations-2.9.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jackson-annotations-2.9.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jackson-core-2.9.8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jackson-databind-2.9.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jackson-databind-2.9.9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/javax.inject-1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/javax.inject-1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jcommander-1.72.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jcommander-1.72.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jedis-2.9.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jersey-apache-client4-1.19.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jersey-apache-client4-1.19.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jersey-client-1.19.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jersey-client-1.19.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jersey-core-1.19.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jersey-core-1.19.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jetcd-common-0.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jetcd-common-0.3.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jetcd-core-0.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jetcd-core-0.3.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jetcd-resolver-0.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jetcd-resolver-0.3.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jettison-1.3.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jettison-1.3.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jline-0.9.94.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jline-0.9.94.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/joda-time-2.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/joda-time-2.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jsr305-3.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jsr305-3.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/jsr311-api-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/jsr311-api-1.1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/kryo-4.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/kryo-4.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/kryo-serializers-0.42.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/kryo-serializers-0.42.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/log4j-1.2.17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/logback-classic-1.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/logback-classic-1.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/logback-core-1.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/logback-core-1.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/lookout-api-1.5.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/lookout-api-1.5.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/minlog-1.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/minlog-1.3.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/mysql-connector-java-5.1.30.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/nacos-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/nacos-api-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/nacos-client-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/nacos-client-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/nacos-common-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/nacos-common-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/netflix-eventbus-0.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/netflix-eventbus-0.3.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/netflix-infix-0.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/netflix-infix-0.3.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/netty-3.10.6.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/netty-3.10.6.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/netty-all-4.1.30.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/netty-all-4.1.30.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/objenesis-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/objenesis-2.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/opencensus-api-0.17.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/opencensus-api-0.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/opencensus-contrib-grpc-metrics-0.17.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/opencensus-contrib-grpc-metrics-0.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/postgresql-42.1.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/postgresql-42.1.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/proto-google-common-protos-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/proto-google-common-protos-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/protobuf-java-3.7.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/protobuf-java-3.7.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/protobuf-java-util-3.5.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/protobuf-java-util-3.5.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/reflectasm-1.11.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/reflectasm-1.11.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/registry-client-all-5.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/registry-client-all-5.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-common-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-common-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-compressor-all-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-compressor-all-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-compressor-gzip-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-compressor-gzip-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-config-all-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-config-all-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-config-apollo-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-config-apollo-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-config-consul-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-config-consul-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-config-core-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-config-core-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-config-etcd3-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-config-etcd3-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-config-nacos-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-config-nacos-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-config-zk-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-config-zk-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-core-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-core-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-discovery-all-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-discovery-all-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-discovery-consul-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-discovery-consul-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-discovery-core-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-discovery-core-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-discovery-custom-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-discovery-custom-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-discovery-etcd3-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-discovery-etcd3-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-discovery-eureka-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-discovery-eureka-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-discovery-nacos-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-discovery-nacos-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-discovery-redis-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-discovery-redis-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-discovery-sofa-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-discovery-sofa-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-discovery-zk-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-discovery-zk-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-metrics-all-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-metrics-all-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-metrics-api-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-metrics-api-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-metrics-core-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-metrics-core-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-metrics-exporter-prometheus-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-metrics-exporter-prometheus-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-metrics-registry-compact-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-metrics-registry-compact-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-serializer-all-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-serializer-all-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-serializer-hessian-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-serializer-hessian-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-serializer-kryo-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-serializer-kryo-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-serializer-protobuf-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-serializer-protobuf-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-serializer-seata-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-serializer-seata-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/seata-server-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/seata-server-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/servlet-api-2.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/servo-core-0.12.21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/servo-core-0.12.21.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/simpleclient-0.5.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/simpleclient-0.5.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/simpleclient_common-0.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/simpleclient_common-0.6.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/simpleclient_httpserver-0.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/simpleclient_httpserver-0.6.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/slf4j-api-1.7.22.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/slf4j-api-1.7.22.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/sofa-common-tools-1.0.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/sofa-common-tools-1.0.12.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/spotbugs-annotations-3.1.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/spotbugs-annotations-3.1.9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/stax-api-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/stax-api-1.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/stringtemplate-3.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/stringtemplate-3.2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/xmlpull-1.1.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/xmlpull-1.1.3.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/xpp3_min-1.1.4c.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/xpp3_min-1.1.4c.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/xstream-1.4.10.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/xstream-1.4.10.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/zkclient-0.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/zkclient-0.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-order/seata/lib/zookeeper-3.4.14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/seata/lib/zookeeper-3.4.14.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-product/product-service-restful/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-product/product-service-restful/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-consumer/src/main/java/com/hdsx/dubbo/sentinel/consumer/controller/DemoServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-sentinel/sentinel-service-consumer/src/main/java/com/hdsx/dubbo/sentinel/consumer/controller/DemoServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-user/user-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-user/user-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-user/user-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-user/user-service-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-user/user-service-restful/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-user/user-service-restful/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +220,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/iamges" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,6 +235,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hdsx.dubbo.order.application.config" />
       <recent name="com.hdsx.dubbo.order" />
@@ -55,14 +246,14 @@
       <recent name="com.hdsx.dubbo.user.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/iamges" />
       <recent name="$PROJECT_DIR$/sql" />
       <recent name="$PROJECT_DIR$/dubbo-service-order" />
       <recent name="$PROJECT_DIR$/dubbo-service-order/order-service-impl/src/main/resources" />
       <recent name="$PROJECT_DIR$/dubbo-service-product/product-service-impl/src/main/resources" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderApplication">
+  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo-application" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.iocoder.mall.demo.application.DemoApplication" />
@@ -273,7 +464,13 @@
       <workItem from="1582806198903" duration="8460000" />
       <workItem from="1582948204417" duration="739000" />
       <workItem from="1582979789853" duration="2740000" />
-      <workItem from="1583128967117" duration="618000" />
+      <workItem from="1583128967117" duration="877000" />
+      <workItem from="1583130829269" duration="503000" />
+      <workItem from="1583137020122" duration="935000" />
+      <workItem from="1583150731008" duration="2098000" />
+      <workItem from="1583155134603" duration="1136000" />
+      <workItem from="1583196572581" duration="84000" />
+      <workItem from="1583214089414" duration="4369000" />
     </task>
     <task id="LOCAL-00001" summary="开始调试-user服务">
       <created>1582381899177</created>
@@ -345,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582806054470</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="开始调试-order3">
+      <created>1583227055170</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583227055170</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,17 +579,20 @@
     <MESSAGE value="开始调试-product包的测试1" />
     <MESSAGE value="开始调试-order" />
     <MESSAGE value="开始调试-order1" />
-    <option name="LAST_COMMIT_MESSAGE" value="开始调试-order1" />
+    <MESSAGE value="开始调试-order3" />
+    <option name="LAST_COMMIT_MESSAGE" value="开始调试-order3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="81" y="95" key="#Project_Structure" timestamp="1582632814232">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state x="81" y="95" key="#Project_Structure" timestamp="1583218227518">
+      <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state x="81" y="95" key="#Project_Structure/0.23.1280.741@0.23.1280.741" timestamp="1582632814232" />
-    <state x="114" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582719401852">
-      <screen x="0" y="23" width="1280" height="741" />
+    <state x="81" y="95" key="#Project_Structure/0.23.1280.742@0.23.1280.742" timestamp="1583218227518" />
+    <state x="114" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583218917918">
+      <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state x="114" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.741@0.23.1280.741" timestamp="1582719401852" />
+    <state x="114" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.742@0.23.1280.742" timestamp="1583218917918" />
     <state x="383" y="194" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582377411603">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
@@ -410,63 +617,63 @@
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="329" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.741@0.23.1280.741" timestamp="1582460824411" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1582806054052">
-      <screen x="0" y="23" width="1280" height="743" />
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1583227053771">
+      <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.741@0.23.1280.741" timestamp="1582631873071" />
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.742@0.23.1280.742" timestamp="1582804542640" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.742@0.23.1280.742" timestamp="1583227053771" />
     <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.743@0.23.1280.743" timestamp="1582806054052" />
     <state width="417" height="466" key="DebuggerActiveHint" timestamp="1582722693355">
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state width="417" height="466" key="DebuggerActiveHint/0.23.1280.741@0.23.1280.741" timestamp="1582722693355" />
-    <state width="1218" height="356" key="GridCell.Tab.0.bottom" timestamp="1582806158280">
-      <screen x="0" y="23" width="1280" height="743" />
+    <state width="1052" height="356" key="GridCell.Tab.0.bottom" timestamp="1583216507464">
+      <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state width="1218" height="356" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1582764202163" />
-    <state width="1218" height="267" key="GridCell.Tab.0.bottom/0.23.1280.742@0.23.1280.742" timestamp="1582609482501" />
+    <state width="1052" height="356" key="GridCell.Tab.0.bottom/0.23.1280.742@0.23.1280.742" timestamp="1583216507464" />
     <state width="1218" height="356" key="GridCell.Tab.0.bottom/0.23.1280.743@0.23.1280.743" timestamp="1582806158280" />
-    <state width="1218" height="356" key="GridCell.Tab.0.center" timestamp="1582806158279">
-      <screen x="0" y="23" width="1280" height="743" />
+    <state width="1052" height="356" key="GridCell.Tab.0.center" timestamp="1583216507463">
+      <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state width="1218" height="356" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1582764202162" />
-    <state width="1218" height="267" key="GridCell.Tab.0.center/0.23.1280.742@0.23.1280.742" timestamp="1582609482500" />
+    <state width="1052" height="356" key="GridCell.Tab.0.center/0.23.1280.742@0.23.1280.742" timestamp="1583216507463" />
     <state width="1218" height="356" key="GridCell.Tab.0.center/0.23.1280.743@0.23.1280.743" timestamp="1582806158279" />
-    <state width="1218" height="356" key="GridCell.Tab.0.left" timestamp="1582806158278">
-      <screen x="0" y="23" width="1280" height="743" />
+    <state width="1052" height="356" key="GridCell.Tab.0.left" timestamp="1583216507460">
+      <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state width="1218" height="356" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1582764202161" />
-    <state width="1218" height="267" key="GridCell.Tab.0.left/0.23.1280.742@0.23.1280.742" timestamp="1582609482500" />
+    <state width="1052" height="356" key="GridCell.Tab.0.left/0.23.1280.742@0.23.1280.742" timestamp="1583216507460" />
     <state width="1218" height="356" key="GridCell.Tab.0.left/0.23.1280.743@0.23.1280.743" timestamp="1582806158278" />
-    <state width="1218" height="356" key="GridCell.Tab.0.right" timestamp="1582806158279">
-      <screen x="0" y="23" width="1280" height="743" />
+    <state width="1052" height="356" key="GridCell.Tab.0.right" timestamp="1583216507464">
+      <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state width="1218" height="356" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1582764202162" />
-    <state width="1218" height="267" key="GridCell.Tab.0.right/0.23.1280.742@0.23.1280.742" timestamp="1582609482501" />
+    <state width="1052" height="356" key="GridCell.Tab.0.right/0.23.1280.742@0.23.1280.742" timestamp="1583216507464" />
     <state width="1218" height="356" key="GridCell.Tab.0.right/0.23.1280.743@0.23.1280.743" timestamp="1582806158279" />
-    <state width="1218" height="356" key="GridCell.Tab.1.bottom" timestamp="1582806158281">
-      <screen x="0" y="23" width="1280" height="743" />
+    <state width="1052" height="356" key="GridCell.Tab.1.bottom" timestamp="1583216507466">
+      <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state width="1218" height="356" key="GridCell.Tab.1.bottom/0.23.1280.741@0.23.1280.741" timestamp="1582764202166" />
-    <state width="1218" height="267" key="GridCell.Tab.1.bottom/0.23.1280.742@0.23.1280.742" timestamp="1582609482506" />
+    <state width="1052" height="356" key="GridCell.Tab.1.bottom/0.23.1280.742@0.23.1280.742" timestamp="1583216507466" />
     <state width="1218" height="356" key="GridCell.Tab.1.bottom/0.23.1280.743@0.23.1280.743" timestamp="1582806158281" />
-    <state width="1218" height="356" key="GridCell.Tab.1.center" timestamp="1582806158280">
-      <screen x="0" y="23" width="1280" height="743" />
+    <state width="1052" height="356" key="GridCell.Tab.1.center" timestamp="1583216507465">
+      <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state width="1218" height="356" key="GridCell.Tab.1.center/0.23.1280.741@0.23.1280.741" timestamp="1582764202164" />
-    <state width="1218" height="267" key="GridCell.Tab.1.center/0.23.1280.742@0.23.1280.742" timestamp="1582609482504" />
+    <state width="1052" height="356" key="GridCell.Tab.1.center/0.23.1280.742@0.23.1280.742" timestamp="1583216507465" />
     <state width="1218" height="356" key="GridCell.Tab.1.center/0.23.1280.743@0.23.1280.743" timestamp="1582806158280" />
-    <state width="1218" height="356" key="GridCell.Tab.1.left" timestamp="1582806158280">
-      <screen x="0" y="23" width="1280" height="743" />
+    <state width="1052" height="356" key="GridCell.Tab.1.left" timestamp="1583216507464">
+      <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state width="1218" height="356" key="GridCell.Tab.1.left/0.23.1280.741@0.23.1280.741" timestamp="1582764202164" />
-    <state width="1218" height="267" key="GridCell.Tab.1.left/0.23.1280.742@0.23.1280.742" timestamp="1582609482502" />
+    <state width="1052" height="356" key="GridCell.Tab.1.left/0.23.1280.742@0.23.1280.742" timestamp="1583216507464" />
     <state width="1218" height="356" key="GridCell.Tab.1.left/0.23.1280.743@0.23.1280.743" timestamp="1582806158280" />
-    <state width="1218" height="356" key="GridCell.Tab.1.right" timestamp="1582806158280">
-      <screen x="0" y="23" width="1280" height="743" />
+    <state width="1052" height="356" key="GridCell.Tab.1.right" timestamp="1583216507465">
+      <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state width="1218" height="356" key="GridCell.Tab.1.right/0.23.1280.741@0.23.1280.741" timestamp="1582764202165" />
-    <state width="1218" height="267" key="GridCell.Tab.1.right/0.23.1280.742@0.23.1280.742" timestamp="1582609482505" />
+    <state width="1052" height="356" key="GridCell.Tab.1.right/0.23.1280.742@0.23.1280.742" timestamp="1583216507465" />
     <state width="1218" height="356" key="GridCell.Tab.1.right/0.23.1280.743@0.23.1280.743" timestamp="1582806158280" />
     <state width="1218" height="303" key="GridCell.Tab.2.bottom" timestamp="1582806158251">
       <screen x="0" y="23" width="1280" height="743" />
@@ -492,17 +699,17 @@
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="200" y="88" key="NewModule_or_Project.wizard/0.23.1280.741@0.23.1280.741" timestamp="1581858161330" />
-    <state x="480" y="244" key="Vcs.Push.Dialog.v2" timestamp="1582806056696">
-      <screen x="0" y="23" width="1280" height="743" />
+    <state x="480" y="244" key="Vcs.Push.Dialog.v2" timestamp="1583227084212">
+      <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state x="480" y="244" key="Vcs.Push.Dialog.v2/0.23.1280.741@0.23.1280.741" timestamp="1582631876675" />
-    <state x="480" y="244" key="Vcs.Push.Dialog.v2/0.23.1280.742@0.23.1280.742" timestamp="1582804546200" />
+    <state x="480" y="244" key="Vcs.Push.Dialog.v2/0.23.1280.742@0.23.1280.742" timestamp="1583227084212" />
     <state x="480" y="244" key="Vcs.Push.Dialog.v2/0.23.1280.743@0.23.1280.743" timestamp="1582806056696" />
-    <state x="395" y="176" width="885" height="552" key="find.popup" timestamp="1583129724339">
-      <screen x="0" y="23" width="1280" height="743" />
+    <state x="395" y="176" width="885" height="550" key="find.popup" timestamp="1583155246481">
+      <screen x="0" y="23" width="1280" height="741" />
     </state>
-    <state x="395" y="176" width="885" height="550" key="find.popup/0.23.1280.741@0.23.1280.741" timestamp="1582724014203" />
-    <state x="395" y="176" width="885" height="552" key="find.popup/0.23.1280.743@0.23.1280.743" timestamp="1583129724339" />
+    <state x="395" y="176" width="885" height="550" key="find.popup/0.23.1280.741@0.23.1280.741" timestamp="1583155246481" />
+    <state x="395" y="176" width="885" height="552" key="find.popup/0.23.1280.743@0.23.1280.743" timestamp="1583130874188" />
     <state x="34" y="159" key="new project wizard" timestamp="1581942467582">
       <screen x="0" y="23" width="1280" height="741" />
     </state>

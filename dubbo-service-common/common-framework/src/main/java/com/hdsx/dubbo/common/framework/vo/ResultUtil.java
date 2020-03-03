@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
+ * 返回体
  */
 @SuppressWarnings("unchecked")
 public class ResultUtil {

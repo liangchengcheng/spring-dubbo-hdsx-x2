@@ -18,6 +18,7 @@ import java.util.List;
 
 @Service
 public class DemoServiceProxy {
+
     private static final String KEY = "sayHello";
 
     @Reference(version = "${demo.service.version}")

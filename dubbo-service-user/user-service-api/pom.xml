@@ -11,7 +11,7 @@
 
     <artifactId>user-service-api</artifactId>
     <dependencies>
-        <!-- Mall 相关 -->
+        <!-- 业务相关 -->
         <dependency>
             <groupId>com.hdsx.dubbo</groupId>
             <artifactId>common-framework</artifactId>

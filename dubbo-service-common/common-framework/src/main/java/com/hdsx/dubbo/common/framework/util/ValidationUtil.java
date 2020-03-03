@@ -9,7 +9,7 @@ public class ValidationUtil {
         if (mobile == null || mobile.length() != 11) {
             return false;
         }
-        // TODO 后面完善手机校验
+
         return true;
     }
 
