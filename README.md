@@ -58,13 +58,19 @@
 
 ## 搭建环境和启动流程
 
-* 启动zookeeper，这里不做演示，使用默认端口即可，dubbo中间的服务注册中心就是zookeeper，我个人觉得nacos比较好。
+* 启动Zookeeper，这里不做演示，使用默认端口即可，dubbo中间的服务注册中心就是zookeeper，我个人觉得nacos比较好。
 
-* 启动dubbo的提供者服务， 再启动服务的消费者服务
+* 如果是Nacos 启动Nacos，这里不做演示，使用默认端口即可（bin/start）
 
-* 启动sentinel `-Djava.net.preferIPv4Stack=true  -Dcsp.sentinel.api.port=8189   -Dproject.name=consumer-service -Dcsp.sentinel.dashboard.server=127.0.0.1:8080`
+* 启动Dubbo的提供者服务， 再启动服务的消费者服务
 
-* 启动dubbo admin 的服务管理中心。
+* 启动Sentinel （官关、限流等）`-Djava.net.preferIPv4Stack=true  -Dcsp.sentinel.api.port=8189   -Dproject.name=consumer-service -Dcsp.sentinel.dashboard.server=127.0.0.1:8080`
+
+* 启动Dubbo admin 的服务管理中心（微服务的状态）。
+
+* 启动Seata 分布式事物中心（服务端。
+
+* 如果用户较少，且可容忍较少数据错误，推荐直接使用乐观锁。
 
 
 ## 技术栈
@@ -80,12 +86,12 @@
 | [MyBatis-Plus](https://mp.baomidou.com/) | Mybatis 增强工具包 | 3.1.1 |
 | [Redis](https://redis.io/) | key-value 数据库 | 暂未引入，等压测后，部分模块 |
 | [Redisson](https://github.com/redisson/redisson) | Redis 客户端 | 暂未引入，等压测后，部分模块 |
-| [Elasticsearch](https://www.elastic.co/cn/) | 分布式搜索引擎 | 6.7.1 |
+| [Elasticsearch（暂废除）](https://www.elastic.co/cn/) | 分布式搜索引擎 | 6.7.1 |
 | [Dubbo](http://dubbo.apache.org/) | 分布式 RPC 服务框架 | 2.7.1 |
-| [RocketMQ](http://dubbo.apache.org/) | 消息中间件 | 4.3.2 |
+| [RocketMQ（暂废除）](http://dubbo.apache.org/) | 消息中间件 | 4.3.2 |
 | [Seata](https://github.com/seata/seata) | 分布式事务中间件 | 0.5.1 |
 | [Zookeeper](http://zookeeper.apache.org/) | 分布式系统协调 | 3.4.9 作为注册中心 |
-| [XXL-Job](http://www.xuxueli.com/xxl-job/) | 分布式任务调度平台 | 2.0.1 |
+| [XXL-Job（暂废除）](http://www.xuxueli.com/xxl-job/) | 分布式任务调度平台 | 2.0.1 |
 | [springfox-swagger2](https://github.com/springfox/springfox/tree/master/springfox-swagger2) | API 文档 | 2.9.2 |
 | [swagger-bootstrap-ui](https://gitee.com/xiaoym/swagger-bootstrap-ui) | Swagger 增强 UI 实现 | 1.9.3 |
 
