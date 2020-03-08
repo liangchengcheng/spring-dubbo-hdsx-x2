@@ -7,26 +7,6 @@
 ## 架构图
 * 整体的功能如下图：![功能图](https://github.com/liangchengcheng/spring-dubbo-hdsx-x2/blob/master/iamges/image_jiagou.png)
 
-下面，我们会提供目前用到的中间件的管理平台。
-
-**Swagger UI**
-
-* 地址：http://ip:端口/swagger-ui.html
-* 演示账号：无 / 无
-* 用于展示 接口文档数据的界面。
-
-**Dubbo Admin**
-
-* 地址：http://dubbo-admin.shop.iocoder.com:18099
-* 管理员账号：无需登陆
-
-
-**Sentinel Console**
-
-* 地址：http://sentinel.shop.iocoder.com:18099
-* 账号：sentinel / sentinel
-
-
 # 技术
 
 ## 项目结构
@@ -117,6 +97,25 @@
 | [Prometheus](https://prometheus.io/) | 服务监控体系 | 2.9.2 |
 | [Alertmanager](https://prometheus.io/docs/alerting/alertmanager/) | 告警管理器 | 0.17.0 |
 | [Grafana](https://grafana.com/) | 仪表盘和图形编辑器 | 0.17.0 |
+
+下面，我们会提供目前用到的中间件的管理平台。
+
+**Swagger UI**
+
+* 地址：http://ip:端口/swagger-ui.html
+* 演示账号：无 / 无
+* 用于展示 接口文档数据的界面。
+
+**Dubbo Admin**
+
+* 地址：http://dubbo-admin.shop.iocoder.com:18099
+* 管理员账号：无需登陆
+
+
+**Sentinel Console**
+
+* 地址：http://sentinel.shop.iocoder.com:18099
+* 账号：sentinel / sentinel
 
 ### 其它
 
