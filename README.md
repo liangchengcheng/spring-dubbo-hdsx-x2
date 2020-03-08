@@ -4,58 +4,30 @@
 
 基于微服务的思想，构建在 B2C 电商场景下的项目实战。
 
-
-
-* 这会是一个认真做的业务开源项目，
-
+## 架构图
 * 整体的功能如下图：![功能图](https://github.com/liangchengcheng/spring-dubbo-hdsx-x2/blob/master/iamges/image_jiagou.png)
-
-
-
 
 下面，我们会提供目前用到的中间件的管理平台。
 
-> 考虑到大家可以看到更全的功能，所以一般提供 admin 账号。所以，大家素质使用哟。
+**Swagger UI**
 
-**SkyWalking UI**
-
-* 地址：http://skywalking-ui.shop.iocoder.com:18099
-* 管理员账号：admin / admin
-
-**Grafana UI**
-
-* 地址：http://grafana.shop.iocoder.com:18099
-* 演示账号：yudaoyuanma / yudaoyuanma
-* 用于展示 Prometheus 收集的 Metrics 指标数据。
+* 地址：http://ip:端口/swagger-ui.html
+* 演示账号：无 / 无
+* 用于展示 接口文档数据的界面。
 
 **Dubbo Admin**
 
 * 地址：http://dubbo-admin.shop.iocoder.com:18099
 * 管理员账号：无需登陆
 
-**RocketMQ Console**
-
-* 地址：http://rocketmq-console.shop.iocoder.com:18099
-* 管理员账号：admin / RPsa2GHjTNs8pxEU
 
 **Sentinel Console**
 
 * 地址：http://sentinel.shop.iocoder.com:18099
 * 账号：sentinel / sentinel
 
-**XXL-Job Console**
-
-* 地址：http://job-console.shop.iocoder.com:18099
-* 管理员账号：admin / 233666
 
 # 技术
-
-## 搭建环境
-
-[搭建调试环境](https://gitee.com/zhijiantianya/onemall/blob/master/docs/setup/quick-start.md)
-
-## 架构图
-
 
 ## 项目结构
 
@@ -83,6 +55,17 @@
 * MQ 消费者、定时器执行器，内嵌在 `xxx-service-impl` 中运行。
 
 也就是说，一个 `xxx-application` 启动后，该模块就完整启动了。
+
+## 搭建环境和启动流程
+
+* 启动zookeeper，这里不做演示，使用默认端口即可，dubbo中间的服务注册中心就是zookeeper，我个人觉得nacos比较好。
+
+* 启动dubbo的提供者服务， 再启动服务的消费者服务
+
+* 启动sentinel `-Djava.net.preferIPv4Stack=true  -Dcsp.sentinel.api.port=8189   -Dproject.name=consumer-service -Dcsp.sentinel.dashboard.server=127.0.0.1:8080`
+
+* 启动dubbo admin 的服务管理中心。
+
 
 ## 技术栈
 
