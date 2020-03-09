@@ -20,6 +20,7 @@
         <module>dubbo-service-common</module>
         <module>dubbo-service-nacos</module>
         <module>dubbo-service-sentinel</module>
+        <module>dubbo-service-soul</module>
 
     </modules>
     <packaging>pom</packaging>
