@@ -69,7 +69,7 @@
 		<consul-embedded-version>2.0.0</consul-embedded-version>
 		<nacos-version>1.0.0</nacos-version>
 		<guava-version>20.0</guava-version>
-		<snakeyaml-version>1.24</snakeyaml-version>
+		<snakeyaml-version>1.32</snakeyaml-version>
 		<maven-checkstyle-plugin-version>3.0.0</maven-checkstyle-plugin-version>
 		<spring-boot-version>2.1.4.RELEASE</spring-boot-version>
 		<maven_compiler_version>3.6.0</maven_compiler_version>
